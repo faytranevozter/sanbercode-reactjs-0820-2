@@ -1,0 +1,30 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+table.custom {
+  border: 0;
+  width: 100%;
+  border: 1px solid #333;
+}
+
+table.custom thead th {
+  background-color: #EEE;
+}
+
+table.custom th,
+table.custom td {
+  border: 1px solid #333;
+}
+table.custom tbody td {
+  background-color: orange;
+}
+
+.box {
+  width: 50%;
+}
