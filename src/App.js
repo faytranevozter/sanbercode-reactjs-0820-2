@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Form from './Tugas-9/Form';
-import Table from './Tugas-10/Table';
-import LifeCycle from './Tugas-11/LifeCycle';
+// import Form from './Tugas-9/Form';
+// import Table from './Tugas-10/Table';
+// import LifeCycle from './Tugas-11/LifeCycle';
+import Tugas12 from './Tugas-12/Tugas12';
 
 function App() {
   return (
     <div className="box">
-      <Form />
+      {/* <Form />
       <Table 
         data={[
           { nama: 'Semangka', harga: 10000, berat: 1000 },
@@ -17,7 +18,8 @@ function App() {
           { nama: 'Mangga', harga: 30000, berat: 500 }
         ]}
       />
-      <LifeCycle />
+      <LifeCycle /> */}
+      <Tugas12 />
     </div>
   );
 }
