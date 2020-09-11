@@ -4,7 +4,8 @@ import './App.css';
 // import Table from './Tugas-10/Table';
 // import LifeCycle from './Tugas-11/LifeCycle';
 // import Tugas12 from './Tugas-12/Tugas12';
-import Tugas13 from './Tugas-13/Tugas13';
+// import Tugas13 from './Tugas-13/Tugas13';
+import Tugas14 from './Tugas-14/Tugas14';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       />
       <LifeCycle /> */}
       {/* <Tugas12 /> */}
-      <Tugas13 />
+      {/* <Tugas13 /> */}
+      <Tugas14 />
     </div>
   );
 }
