@@ -14,20 +14,22 @@ const Form = () => {
   const inputPrice = useRef(null);
   const inputWeight = useRef(null);
 
-  const fetchData = async () => {
-    try {
-      const { data } = await axios.get('https://cors-anywhere.herokuapp.com/http://backendexample.sanbercloud.com/api/fruits');
-      setdataFruits(data);
-    } catch (err) {
-      console.error(err);
-    }
-  };
-
   useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const {
+          data
+        } = await axios.get('https://cors-anywhere.herokuapp.com/http://backendexample.sanbercloud.com/api/fruits');
+        setdataFruits(data);
+      } catch (err) {
+        console.error(err);
+      }
+    };
+
     if (dataFruits === null) {
       fetchData();
     }
-  }, [dataFruits]);
+  }, [dataFruits, setdataFruits]);
 
   const handleChangeInput = () => {
     setInput({
